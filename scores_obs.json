@@ -1,0 +1,87 @@
+{
+ "gemma4-12b-qat-q4+observed-before": {
+  "parsed": 82.0,
+  "before_kind": 81.0,
+  "after_kind": 76.0,
+  "before_type": 80.0,
+  "after_type": 69.0,
+  "before_value": 80.0,
+  "after_value": 61.0,
+  "before_exception": 81.0,
+  "after_exception": 76.0,
+  "before_complete": 79.0,
+  "after_complete": 59.0,
+  "before_complete_lenient": 79.0,
+  "after_complete_lenient": 61.0,
+  "changed_after_complete": 20.0,
+  "changed_after_value": 22.0,
+  "tp": 34.0,
+  "fp": 1.0,
+  "fn": 8.0,
+  "tn": 39.0,
+  "change_correct": 73.0,
+  "paired_complete": 57.0,
+  "no_verdict": 1.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.8095238095238095,
+  "change_precision": 0.9714285714285714,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 8.0,
+    "paired_complete": 6.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 2.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 15.0,
+    "paired_complete": 10.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 14.0,
+    "paired_complete": 12.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 8.0,
+    "paired_complete": 6.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 8.0,
+    "paired_complete": 7.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 3.0,
+    "paired_complete": 3.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 1.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 3.0,
+    "paired_complete": 2.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 10.0,
+    "paired_complete": 8.0
+   }
+  }
+ }
+}

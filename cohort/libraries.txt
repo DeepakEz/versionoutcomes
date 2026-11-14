@@ -1,0 +1,16 @@
+cachetools https://github.com/tkem/cachetools 1ce79efa552d1bdda70d144d401ef9105d999184
+funcy https://github.com/Suor/funcy a876c7e1cf11e7c746e91fce4632ebfa93865428
+glom https://github.com/mahmoud/glom fd70d3051a6a1bcb5152ec2d8e2cdc8e852f95e6
+inflection https://github.com/jpvanhal/inflection 88eefaacf7d0caaa701af7c8ab2d0ab3f17086f1
+jmespath.py https://github.com/jmespath/jmespath.py 2812594e69d43098ef60f81f4efc404c071b0418
+markdown https://github.com/Python-Markdown/markdown f368c7d914944fbd0d8e4fab0cf33580c87c59e4
+natsort https://github.com/SethMMorton/natsort e9a3a2a307580a1f2be8c57bba50fba45789ada0
+parse https://github.com/r1chardj0n3s/parse 616ac26ca4077266dee2479dc51a8d19feab0ada
+pydash https://github.com/dgilland/pydash b6bd031de47134b8e3c3977fbe65bf13cc51a205
+pyparsing https://github.com/pyparsing/pyparsing 810199f89bf916590426e1c5cb3d612584f11a2f
+python-semver https://github.com/python-semver/python-semver b6e83e3e40d3a7570386e8d694ae8011477a55c1
+python-slugify https://github.com/un33k/python-slugify 35aca63fc2672cba2c739ff6dff685a4f26a4f9a
+python-sortedcontainers https://github.com/grantjenks/python-sortedcontainers 3ac358631f58c1347f1d6d2d92784117db0f38ed
+python-tabulate https://github.com/astanin/python-tabulate 268615a5c27dc40e5c22454c07b44d5c50410da0
+sqlparse https://github.com/andialbrecht/sqlparse 09dbe1eec31ed1b3cd05366748865f11ba427d32
+tomlkit https://github.com/python-poetry/tomlkit 73078ea2b86cd7a89ee27d5be9232ae1b3e85409

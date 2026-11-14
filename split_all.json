@@ -1,0 +1,82 @@
+{
+ "gemma4-e2b-qat-q4": {
+  "pre": {
+   "n": 40,
+   "change_correct": 12,
+   "paired_complete": 3,
+   "change_acc": 0.3,
+   "paired_complete_rate": 0.075
+  },
+  "post": {
+   "n": 42,
+   "change_correct": 10,
+   "paired_complete": 0,
+   "change_acc": 0.23809523809523808,
+   "paired_complete_rate": 0.0
+  }
+ },
+ "gemma4-e4b-qat-q4": {
+  "pre": {
+   "n": 40,
+   "change_correct": 20,
+   "paired_complete": 4,
+   "change_acc": 0.5,
+   "paired_complete_rate": 0.1
+  },
+  "post": {
+   "n": 42,
+   "change_correct": 20,
+   "paired_complete": 1,
+   "change_acc": 0.47619047619047616,
+   "paired_complete_rate": 0.023809523809523808
+  }
+ },
+ "gemma4-12b-qat-q4": {
+  "pre": {
+   "n": 40,
+   "change_correct": 34,
+   "paired_complete": 10,
+   "change_acc": 0.85,
+   "paired_complete_rate": 0.25
+  },
+  "post": {
+   "n": 42,
+   "change_correct": 34,
+   "paired_complete": 6,
+   "change_acc": 0.8095238095238095,
+   "paired_complete_rate": 0.14285714285714285
+  }
+ },
+ "gemma4-26b-a4b-qat-q4": {
+  "pre": {
+   "n": 40,
+   "change_correct": 30,
+   "paired_complete": 13,
+   "change_acc": 0.75,
+   "paired_complete_rate": 0.325
+  },
+  "post": {
+   "n": 42,
+   "change_correct": 29,
+   "paired_complete": 10,
+   "change_acc": 0.6904761904761905,
+   "paired_complete_rate": 0.23809523809523808
+  }
+ },
+ "gemma4-31b-qat-q4": {
+  "pre": {
+   "n": 40,
+   "change_correct": 34,
+   "paired_complete": 19,
+   "change_acc": 0.85,
+   "paired_complete_rate": 0.475
+  },
+  "post": {
+   "n": 42,
+   "change_correct": 35,
+   "paired_complete": 17,
+   "change_acc": 0.8333333333333334,
+   "paired_complete_rate": 0.40476190476190477
+  }
+ }
+}

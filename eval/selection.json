@@ -1,0 +1,75 @@
+{
+ "cachetools": {
+  "changed": 4,
+  "unchanged_available": 5,
+  "unchanged_taken": 4
+ },
+ "funcy": {
+  "changed": 1,
+  "unchanged_available": 9,
+  "unchanged_taken": 1
+ },
+ "markdown": {
+  "changed": 1,
+  "unchanged_available": 0,
+  "unchanged_taken": 0
+ },
+ "natsort": {
+  "changed": 8,
+  "unchanged_available": 38,
+  "unchanged_taken": 8
+ },
+ "parse": {
+  "changed": 0,
+  "unchanged_available": 1,
+  "unchanged_taken": 0
+ },
+ "pydash": {
+  "changed": 8,
+  "unchanged_available": 382,
+  "unchanged_taken": 8
+ },
+ "pyparsing": {
+  "changed": 4,
+  "unchanged_available": 13,
+  "unchanged_taken": 4
+ },
+ "python-semver": {
+  "changed": 5,
+  "unchanged_available": 40,
+  "unchanged_taken": 5
+ },
+ "python-slugify": {
+  "changed": 2,
+  "unchanged_available": 12,
+  "unchanged_taken": 2
+ },
+ "python-sortedcontainers": {
+  "changed": 0,
+  "unchanged_available": 10,
+  "unchanged_taken": 0
+ },
+ "python-tabulate": {
+  "changed": 1,
+  "unchanged_available": 199,
+  "unchanged_taken": 1
+ },
+ "sqlparse": {
+  "changed": 3,
+  "unchanged_available": 2,
+  "unchanged_taken": 2
+ },
+ "tomlkit": {
+  "changed": 5,
+  "unchanged_available": 98,
+  "unchanged_taken": 5
+ },
+ "total": 82,
+ "changed_total": 42,
+ "rule": {
+  "per_function": 3,
+  "seed": 42,
+  "max_chars": 24000,
+  "dedupe": "repo, function, invocation, both sources, both outcomes"
+ }
+}

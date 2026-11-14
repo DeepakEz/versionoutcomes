@@ -1,0 +1,425 @@
+{
+ "gemma4-e2b-qat-q4": {
+  "parsed": 36.0,
+  "before_kind": 18.0,
+  "after_kind": 24.0,
+  "before_type": 12.0,
+  "after_type": 14.0,
+  "before_value": 5.0,
+  "after_value": 8.0,
+  "before_exception": 18.0,
+  "after_exception": 23.0,
+  "before_complete": 3.0,
+  "after_complete": 4.0,
+  "before_complete_lenient": 4.0,
+  "after_complete_lenient": 9.0,
+  "changed_after_complete": 1.0,
+  "changed_after_value": 4.0,
+  "tp": 11.0,
+  "fp": 1.0,
+  "fn": 31.0,
+  "tn": 11.0,
+  "change_correct": 22.0,
+  "paired_complete": 3.0,
+  "no_verdict": 55.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.2619047619047619,
+  "change_precision": 0.9166666666666666,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 7.0,
+    "paired_complete": 3.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 3.0,
+    "paired_complete": 0.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 3.0,
+    "paired_complete": 0.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 1.0,
+    "paired_complete": 0.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 4.0,
+    "paired_complete": 0.0
+   }
+  }
+ },
+ "gemma4-e4b-qat-q4": {
+  "parsed": 57.0,
+  "before_kind": 43.0,
+  "after_kind": 51.0,
+  "before_type": 23.0,
+  "after_type": 31.0,
+  "before_value": 20.0,
+  "after_value": 23.0,
+  "before_exception": 37.0,
+  "after_exception": 45.0,
+  "before_complete": 5.0,
+  "after_complete": 13.0,
+  "before_complete_lenient": 9.0,
+  "after_complete_lenient": 15.0,
+  "changed_after_complete": 7.0,
+  "changed_after_value": 11.0,
+  "tp": 14.0,
+  "fp": 1.0,
+  "fn": 28.0,
+  "tn": 26.0,
+  "change_correct": 40.0,
+  "paired_complete": 5.0,
+  "no_verdict": 28.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.3333333333333333,
+  "change_precision": 0.9333333333333333,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 6.0,
+    "paired_complete": 0.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 8.0,
+    "paired_complete": 2.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 5.0,
+    "paired_complete": 2.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 4.0,
+    "paired_complete": 0.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 6.0,
+    "paired_complete": 1.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 7.0,
+    "paired_complete": 0.0
+   }
+  }
+ },
+ "gemma4-12b-qat-q4": {
+  "parsed": 82.0,
+  "before_kind": 68.0,
+  "after_kind": 73.0,
+  "before_type": 60.0,
+  "after_type": 59.0,
+  "before_value": 32.0,
+  "after_value": 32.0,
+  "before_exception": 64.0,
+  "after_exception": 69.0,
+  "before_complete": 26.0,
+  "after_complete": 27.0,
+  "before_complete_lenient": 29.0,
+  "after_complete_lenient": 32.0,
+  "changed_after_complete": 19.0,
+  "changed_after_value": 20.0,
+  "tp": 31.0,
+  "fp": 2.0,
+  "fn": 11.0,
+  "tn": 37.0,
+  "change_correct": 68.0,
+  "paired_complete": 16.0,
+  "no_verdict": 1.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.7380952380952381,
+  "change_precision": 0.9393939393939394,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 7.0,
+    "paired_complete": 0.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 13.0,
+    "paired_complete": 4.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 15.0,
+    "paired_complete": 8.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 7.0,
+    "paired_complete": 0.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 7.0,
+    "paired_complete": 2.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 3.0,
+    "paired_complete": 1.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 10.0,
+    "paired_complete": 1.0
+   }
+  }
+ },
+ "gemma4-26b-a4b-qat-q4": {
+  "parsed": 82.0,
+  "before_kind": 66.0,
+  "after_kind": 73.0,
+  "before_type": 59.0,
+  "after_type": 64.0,
+  "before_value": 40.0,
+  "after_value": 40.0,
+  "before_exception": 65.0,
+  "after_exception": 70.0,
+  "before_complete": 34.0,
+  "after_complete": 36.0,
+  "before_complete_lenient": 34.0,
+  "after_complete_lenient": 38.0,
+  "changed_after_complete": 21.0,
+  "changed_after_value": 21.0,
+  "tp": 23.0,
+  "fp": 4.0,
+  "fn": 19.0,
+  "tn": 36.0,
+  "change_correct": 59.0,
+  "paired_complete": 23.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.5476190476190477,
+  "change_precision": 0.8518518518518519,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 5.0,
+    "paired_complete": 0.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 12.0,
+    "paired_complete": 7.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 12.0,
+    "paired_complete": 7.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 6.0,
+    "paired_complete": 0.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 7.0,
+    "paired_complete": 5.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 3.0,
+    "paired_complete": 2.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 1.0,
+    "paired_complete": 0.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 2.0,
+    "paired_complete": 1.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 9.0,
+    "paired_complete": 1.0
+   }
+  }
+ },
+ "gemma4-31b-qat-q4": {
+  "parsed": 82.0,
+  "before_kind": 74.0,
+  "after_kind": 77.0,
+  "before_type": 70.0,
+  "after_type": 70.0,
+  "before_value": 54.0,
+  "after_value": 53.0,
+  "before_exception": 67.0,
+  "after_exception": 71.0,
+  "before_complete": 45.0,
+  "after_complete": 46.0,
+  "before_complete_lenient": 45.0,
+  "after_complete_lenient": 46.0,
+  "changed_after_complete": 26.0,
+  "changed_after_value": 26.0,
+  "tp": 32.0,
+  "fp": 3.0,
+  "fn": 10.0,
+  "tn": 37.0,
+  "change_correct": 69.0,
+  "paired_complete": 36.0,
+  "n": 82,
+  "changed_n": 42.0,
+  "change_recall": 0.7619047619047619,
+  "change_precision": 0.9142857142857143,
+  "per_repo": {
+   "cachetools": {
+    "n": 8.0,
+    "change_correct": 7.0,
+    "paired_complete": 0.0
+   },
+   "funcy": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 1.0
+   },
+   "markdown": {
+    "n": 1.0,
+    "change_correct": 0.0,
+    "paired_complete": 0.0
+   },
+   "natsort": {
+    "n": 16.0,
+    "change_correct": 13.0,
+    "paired_complete": 12.0
+   },
+   "pydash": {
+    "n": 16.0,
+    "change_correct": 14.0,
+    "paired_complete": 11.0
+   },
+   "pyparsing": {
+    "n": 8.0,
+    "change_correct": 7.0,
+    "paired_complete": 0.0
+   },
+   "python-semver": {
+    "n": 10.0,
+    "change_correct": 9.0,
+    "paired_complete": 6.0
+   },
+   "python-slugify": {
+    "n": 4.0,
+    "change_correct": 2.0,
+    "paired_complete": 2.0
+   },
+   "python-tabulate": {
+    "n": 2.0,
+    "change_correct": 2.0,
+    "paired_complete": 0.0
+   },
+   "sqlparse": {
+    "n": 5.0,
+    "change_correct": 3.0,
+    "paired_complete": 2.0
+   },
+   "tomlkit": {
+    "n": 10.0,
+    "change_correct": 10.0,
+    "paired_complete": 2.0
+   }
+  }
+ }
+}

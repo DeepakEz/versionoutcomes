@@ -1,0 +1,60 @@
+{
+ "candidates": 733,
+ "setup_failures": 44,
+ "pairs": 1973,
+ "changed_pairs": 60,
+ "by_repo": {
+  "cachetools": [
+   9,
+   4
+  ],
+  "funcy": [
+   13,
+   1
+  ],
+  "markdown": [
+   1,
+   1
+  ],
+  "natsort": [
+   48,
+   9
+  ],
+  "parse": [
+   1,
+   0
+  ],
+  "pydash": [
+   454,
+   13
+  ],
+  "pyparsing": [
+   17,
+   4
+  ],
+  "python-semver": [
+   48,
+   5
+  ],
+  "python-slugify": [
+   20,
+   2
+  ],
+  "python-sortedcontainers": [
+   10,
+   0
+  ],
+  "python-tabulate": [
+   1233,
+   9
+  ],
+  "sqlparse": [
+   5,
+   3
+  ],
+  "tomlkit": [
+   114,
+   9
+  ]
+ }
+}
