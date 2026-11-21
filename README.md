@@ -31,8 +31,9 @@ Rule-mined part of the resource described in the Kaggle Gemma 4 Developer Agent 
 
 ## Watching a library's new commits (maintainer pilot)
 `src/watch_repo.py` runs the same mining rule on a range of commits of one library and reports only what a user could
-notice: functions the package exports (`__all__`, or its non-underscore top-level names; methods of exported classes;
-`src/public_api_worker.py` checks this in the commit's own snapshot) whose calls behave differently from the latest
+notice: functions the package exports (`__all__`, or its non-underscore top-level names; the public names of a
+submodule that `__all__` lists, as sqlparse does with `sql`; methods of exported classes; `src/public_api_worker.py`
+checks this in the commit's own snapshot) whose calls behave differently from the latest
 release tag (default) or from the parent commit (`--baseline parent`). Fixes to regressions that were never released
 drop out, and functions missing from the release are listed as added. Only calls found in docstrings and in test
 lines added by each commit are run, so a change none of them exercises is not seen.

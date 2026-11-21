@@ -2,15 +2,18 @@
 
 Usage: python -E -P public_api_worker.py ROOT PACKAGE MODULE QUALNAME
 ROOT is put first on sys.path. The public API is what the package's top level exports: its __all__ when defined,
-else every top-level name that does not start with '_'. A function is public when one of those exported objects IS
+else every top-level name that does not start with '_'. When __all__ explicitly lists a module (sqlparse lists 'sql'
+and 'cli'), that module's public names are exported too, as 'sql.Function': its own __all__ when defined, else its
+non-underscore names; one level only. Without __all__, submodules are not expanded. A function is public when one of those exported objects IS
 it (functools.wraps wrappers unwrapped). A method Class.name is public when the class itself is exported and the
 method name is not private (a leading '_' that is not a dunder such as __init__). Functions reachable only through
-a submodule (pkg.sub.func) do not count: the package does not export them.
+a submodule the package does not export (pkg.sub.func) do not count.
 Prints one JSON line: {"exists": bool, "public": bool, "exported_as": [names], "error": str|None}.
 """
 import importlib
 import json
 import sys
+import types
 
 
 def unwrap(obj):
@@ -31,9 +34,14 @@ def main():
     out = {'exists': False, 'public': False, 'exported_as': [], 'error': None}
     try:
         pkg = importlib.import_module(package)
-        names = getattr(pkg, '__all__', None)
-        names = list(names) if names is not None else [n for n in dir(pkg) if not n.startswith('_')]
+        listed = getattr(pkg, '__all__', None)
+        names = list(listed) if listed is not None else [n for n in dir(pkg) if not n.startswith('_')]
         exported = {n: getattr(pkg, n, None) for n in names}
+        for n, o in list(exported.items()):
+            if listed is not None and isinstance(o, types.ModuleType):
+                sub = getattr(o, '__all__', None)
+                sub = list(sub) if sub is not None else [s for s in dir(o) if not s.startswith('_')]
+                exported.update({f'{n}.{s}': getattr(o, s, None) for s in sub})
         mod = importlib.import_module(module)
         parts = qualname.split('.')
         if len(parts) == 1:
