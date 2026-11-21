@@ -29,6 +29,19 @@ Rule-mined part of the resource described in the Kaggle Gemma 4 Developer Agent 
    `python src/score.py --items eval/items.jsonl --answers answers/<model>.jsonl --out scores.json --split-out split.json`.
    Answers without a parseable change verdict score zero on every measure, including field credit (corrected 2026-11-12; see PAPER.md, Limitations).
 
+## Watching a library's new commits (maintainer pilot)
+`src/watch_repo.py` runs the same mining rule on a range of commits of one library and reports only what a user could
+notice: functions the package exports (`__all__`, or its non-underscore top-level names; methods of exported classes;
+`src/public_api_worker.py` checks this in the commit's own snapshot) whose calls behave differently from the latest
+release tag (default) or from the parent commit (`--baseline parent`). Fixes to regressions that were never released
+drop out, and functions missing from the release are listed as added. Only calls found in docstrings and in test
+lines added by each commit are run, so a change none of them exercises is not seen.
+
+    python src/watch_repo.py --repo repos/natsort --package natsort --range 8.4.0..origin/main --out pilot/natsort
+
+`report.md` is the note to post; `changes.json` lists every compared function and call with the reason it was kept or
+filtered. Tests: `python -m pytest tests`.
+
 ## Licences
 Original code and data: Apache-2.0. Function sources and invocations quoted from the 16 libraries remain under their
 own permissive licences (MIT, BSD, Apache-2.0); their licence texts are in `third_party_licenses/`.
